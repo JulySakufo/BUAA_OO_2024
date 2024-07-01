@@ -1,0 +1,30 @@
+0
+[2024-01-01] [accept] 22373425 donated CU-0000
+[2024-01-01] [accept] 22373425 donated CU-0001
+[2024-01-01] [accept] 22373425 donated CU-0002
+[2024-01-01] [accept] 22373425 donated BU-0003
+[2024-01-01] [accept] 22373425 donated CU-0004
+[2024-01-01] [accept] 22373425 borrowed CU-0001
+[2024-01-01] [accept] 22373425 returned CU-0001 not overdue
+[2024-01-01] [accept] 22373425 borrowed CU-0002
+[2024-01-01] [accept] 22373425 returned CU-0002 not overdue
+[2024-01-01] [accept] 22373425 borrowed BU-0003
+[2024-01-01] [accept] 22373425 ordered C-0000
+0
+3
+[2024-01-04] move CU-0001 from bro to bdc
+[2024-01-04] move CU-0002 from bro to bdc
+[2024-01-04] move C-0000 from bs to ao for 22373425
+0
+0
+[2024-01-08] [accept] 22373425 borrowed CU-0001
+[2024-01-08] [accept] 22373425 returned CU-0001 not overdue
+[2024-01-08] [accept] 22373425 borrowed CU-0002
+[2024-01-08] [accept] 22373425 returned CU-0002 not overdue
+0
+3
+[2024-01-10] move C-0000 from ao to bs
+[2024-01-10] move CU-0001 from bro to bs
+[2024-01-10] move CU-0002 from bro to bs
+[2024-01-10] 22373425 19
+0

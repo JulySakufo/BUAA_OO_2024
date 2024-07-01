@@ -1,0 +1,26 @@
+@startuml
+title 第2次作业UML协作图
+autonumber
+participant Main
+participant Dispatcher #pink
+participant Elevator #orange
+activate Main
+Main -> Elevator : : elevator.start()
+Main -> Dispatcher: : dispatcher.start()
+deactivate Main
+activate Dispatcher #pink
+Dispatcher -> Elevator : : getInput and addPerson()
+activate Elevator #orange
+Elevator -> Elevator : : ACTION.OPEN
+Elevator -> Elevator : : ACTION.MOVE
+Elevator -> Elevator : : ACTION.REVERSE
+Elevator -> Elevator : : ACTION.WAIT
+Elevator -> Elevator : : ACTION.RESET
+deactivate Elevator
+Dispatcher -> Elevator : : InputEnd and setEndFlag()
+deactivate Dispatcher
+activate Elevator #orange
+Elevator -> Elevator : : check and ACTION.OVER
+deactivate Elevator
+
+@enduml

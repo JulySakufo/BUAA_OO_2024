@@ -1,0 +1,41 @@
+@startuml
+title 第3次作业UML协作图
+autonumber
+participant Main
+participant Dispatcher #pink
+participant Elevator #orange
+participant DCelevator #cyan
+activate Main
+Main -> Elevator : : elevator.start()
+Main -> Dispatcher: : dispatcher.start()
+deactivate Main
+activate Dispatcher #pink
+Dispatcher -> Elevator : : getInput and addPerson()
+activate Elevator #orange
+Elevator -> Elevator : : ACTION.OPEN
+Elevator -> Elevator : : ACTION.MOVE
+Elevator -> Elevator : : ACTION.REVERSE
+Elevator -> Elevator : : ACTION.WAIT
+Dispatcher -> Elevator : : getInput and addReset()
+Elevator -> Elevator : : ACTION.NORMAL_RESET
+Elevator -> DCelevator : : ACTION.DOUBLE_CAR_RESET and overSelf
+deactivate Elevator
+activate DCelevator #cyan
+Dispatcher -> DCelevator : : getInput and addPerson()
+DCelevator -> DCelevator : : ACTION.OPEN
+DCelevator -> DCelevator : : ACTION.MOVE
+DCelevator -> DCelevator : : ACTION.REVERSE
+DCelevator -> DCelevator : : ACTION.WAIT
+deactivate DCelevator
+Dispatcher -> Elevator : : InputEnd and setEndFlag()
+Dispatcher -> DCelevator : : InputEnd and setEndFlag()
+
+deactivate Dispatcher
+activate DCelevator #cyan
+activate Elevator #orange
+Elevator -> Elevator : : check and ACTION.OVER
+DCelevator -> DCelevator : : check and ACTION.OVER
+deactivate Elevator
+deactivate DCelevator
+
+@enduml
