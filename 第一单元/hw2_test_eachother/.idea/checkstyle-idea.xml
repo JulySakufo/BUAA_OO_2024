@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA" serialisationVersion="2">
+    <checkstyleVersion>8.23</checkstyleVersion>
+    <scanScope>JavaOnly</scanScope>
+    <option name="activeLocationIds">
+      <option value="ed5d6107-bd45-4c30-aeb6-d23ccd3da6f8" />
+    </option>
+    <option name="locations">
+      <list>
+        <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="658994af-da11-4402-a7b6-4e9711bce731" type="LOCAL_FILE" scope="All" description="OO curriculum group provides">$PROJECT_DIR$//Users/linboyan/Desktop/OO/IdeaProjects/CheckStyle/config.xml</ConfigurationLocation>
+        <ConfigurationLocation id="ed5d6107-bd45-4c30-aeb6-d23ccd3da6f8" type="LOCAL_FILE" scope="All" description="OO_02">/Library/A_OO_CheckStyle/config.xml</ConfigurationLocation>
+      </list>
+    </option>
+  </component>
+</project>

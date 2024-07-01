@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hw2_test_eachother:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hw2_test_eachother_jar</output-path>
+    <root id="archive" name="hw2_test_eachother.jar">
+      <element id="module-output" name="hw2_test_eachother" />
+    </root>
+  </artifact>
+</component>

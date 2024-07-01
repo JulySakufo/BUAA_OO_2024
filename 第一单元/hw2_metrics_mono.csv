@@ -1,0 +1,32 @@
+Complexity metrics,ÖÜ¶þ, 19 3ÔÂ 2024 20:18:58 CST
+Method,CogC,ev(G),iv(G),v(G)
+"Mono.Mono(BigInteger, BigInteger)",0,1,1,1
+Mono.checkExp(StringBuilder),2,1,2,2
+Mono.coeEqNegOne(StringBuilder),11,3,6,6
+Mono.coeEqOne(StringBuilder),11,3,6,6
+Mono.coeGtOne(StringBuilder),4,1,4,4
+Mono.coeLeNeqOne(StringBuilder),4,1,4,4
+Mono.equals(Object),6,4,4,7
+Mono.getCoefficient(),0,1,1,1
+Mono.getExponent(),0,1,1,1
+Mono.getPoly(),0,1,1,1
+Mono.hashCode(),0,1,1,1
+Mono.isFactor(),8,5,6,7
+Mono.mulMono(Mono),0,1,1,1
+Mono.setCoefficient(BigInteger),0,1,1,1
+Mono.setPoly(Poly),0,1,1,1
+Mono.toString(),4,1,5,5
+Mono.updateExpMap(Poly),1,1,2,2
+
+Class,OCavg,OCmax,WMC
+Mono,2.71,6,46
+
+Package,v(G)avg,v(G)tot
+,3.00,51
+
+Module,v(G)avg,v(G)tot
+oohomework_2024_22371500_hw_2,3.00,51
+
+Project,v(G)avg,v(G)tot
+project,3.00,51
+
